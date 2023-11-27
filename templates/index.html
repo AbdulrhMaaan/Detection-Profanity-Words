@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning bot</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    
+      <style>
+        body {background-color:natural color(srgb red green blue);}
+        h1   {color: black; font-family: 'Inter', sans-serif; font-weight: 900;}
+        
+        h1 {text-align: center;font-family: 'Inter', sans-serif;}
+        h3 {text-align: center;font-family: 'Inter', sans-serif;}
+        h5 {text-align: center;font-family: 'Inter', sans-serif;}
+        p {text-align: center;font-family: 'Inter', sans-serif;color: blue; font-weight: 400;}
+        form {text-align: center;font-family: 'Inter', sans-serif;color: rgb(25, 0, 255);}
+        input[type="text"]{ width: 600px ; height : 200px ;}
+        input[type="submit"]{ width: 124px ; height : 56px ;background-color:black ; color: white;}
+        label{ color: black ; font-family: 'Inter', sans-serif; font-size: 30px; font-weight: 400; }
+
+        textarea{margin: 0 ; padding: 16px;resize:none ; width: 60vw; height: 20vh; }
+        </style>
+        
+
+</head>
+
+
+<body>
+    <br>
+    <br>
+    <h1>Hi, I am Machine Learning bot </h1>
+    <br>
+    <br>
+    <h3>My job is to predict if a review or comment contains offensive language or not. </h3>
+    <h3>You will Enter your comment below, then PRESS predict and this will help us to increase the accuracy of the prediction. </h3>
+    <h3>Thanks in advance. </h3>    
+
+    <br>
+    <br>
+    <form action="/review" method="post">
+        <br>
+        <label for="comment">Comment:</label>
+        <br>
+        <br>
+        <textarea id="comment" name="comment" rows="16" cols="104" dir="rtl" > </textarea>
+
+        <!-- <input  type="text" name="comment" id="comment" > -->
+        <br>
+        <br>
+        <input type="submit" value="Predict">
+    </form>
+    <br>
+    <p> Result: {{ result }} </p>
+    <br>
+    <h3>NOTE: This result is just a beta version, MayBe is the correct answer or not</h3>
+    
+
+
+</body>
+</html>
