@@ -36,15 +36,24 @@ illegal Saudi words        ,
 
 
 Sample of Preprocessing used in the Model :
+
 Processing :
+
 if # then offensive
+
 if links then offensive
 
+
 Arabic :
+
 Arabic_normalize_chars ()           , Implement the func to normalize characters
+
 Arabic_remove_tashkeel()            , Implement the func to remove tashkeel 
+
 Arabic_remove_H()    	            , Implement func to remove هاء from End word
+
 en_ar_remove_punctuation()	    , Implement the func to remove punctuation
+
 en_ar_remove_repeating_characters() , Implement the func to remove repeater charc
 
 
