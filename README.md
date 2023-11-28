@@ -57,7 +57,12 @@ en_ar_remove_punctuation()	    , Implement the func to remove punctuation
 en_ar_remove_repeating_characters() , Implement the func to remove repeater charc
 
 
+
 English :
+
 en_singularize_word()		    , Implement the func to make the word singular
+
 en_ar_remove_punctuation()	    , Implement the func to remove punctuation
+
 en_ar_remove_repeating_characters() , Implement the func to remove repeater charc
+
